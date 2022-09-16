@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Q & A</title>
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+    <!-- extra fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap"
+      rel="stylesheet"
+    />
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+      <section class="questions">
+        <!-- title -->
+        <div class="title">
+          <h2>TWO MARK QUESTIONS</h2>
+        </div>
+        <!-- questions -->
+        <div class="section-center">
+          <!-- single question -->
+          <article class="question">
+            <!-- question title -->
+            <div class="question-title">
+              <p>What are the properties of Butterworth filters?</p>
+              <button type="button" class="question-btn">
+                <span class="plus-icon">
+                  <i class="far fa-plus-square"></i>
+                </span>
+                <span class="minus-icon">
+                  <i class="far fa-minus-square"></i>
+                </span>
+              </button>
+            </div>
+            <!-- question text -->
+            <div class="question-text">
+              <p>
+                <ul style="list-style-type:circle">
+                <li>amplitude response in both passband and stopband. 
+                <li>Quick roll-off around the cutoff frequency, which improves with increasing order. </li>
+                <li>Considerable overshoot and ringing in step response, which worsens with increasing order. </li> 
+                <li>Slightly non-linear phase response.</li> 
+                </ul> 
+            </p>
+            </div>
+          </article>
+          <!-- end of first question -->
+          <!-- second question -->
+          <article class="question">
+            <!-- question title -->
+            <div class="question-title">
+              <p>What is the advantage of cascade realization?</p>
+              <button type="button" class="question-btn">
+                <span class="plus-icon">
+                  <i class="far fa-plus-square"></i>
+                </span>
+                <span class="minus-icon">
+                  <i class="far fa-minus-square"></i>
+                </span>
+              </button>
+            </div>
+            <!-- question text -->
+            <div class="question-text">
+              <p>
+                Quantization errors can be minimized if we realize an LTI system in cascade form.
+              </p>
+            </div>
+          </article>
+          <!-- end of second question -->
+          <!-- third question -->
+          <article class="question">
+            <!-- question title -->
+            <div class="question-title">
+              <p>What do you mean by fixed point number representation?</p>
+              <!-- button -->
+              <button type="button" class="question-btn">
+                <span class="plus-icon">
+                  <i class="far fa-plus-square"></i>
+                </span>
+                <span class="minus-icon">
+                  <i class="far fa-minus-square"></i>
+                </span>
+              </button>
+            </div>
+            <!-- question text -->
+            <div class="question-text">
+              <p>
+                In fixed point representation the bits allowed for integer part and fractional part and so the position of binary point is fixed. 
+                The main drawback of this representation is that, due to the fixed integer and fraction part, too large and to small values cannot be represented. 
+                The bit to the right represent the fractional part of the number and those to the left represent the integer part. 
+                For example, the binary number 01.1100 has the value 1.75 in decimal.
+              </p>
+            </div>
+          </article>
+          <!-- end of third question -->
+      </section>
+    </main>
+    <!-- javascript -->
+    <script src="app.js"></script>
+  </body>
+</html>
